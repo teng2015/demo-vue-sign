@@ -1,6 +1,6 @@
 # vuejs-start
 
-> 从vue2 重头再来
+> vue2 从头再来
 
 ## vue2起手式
 
