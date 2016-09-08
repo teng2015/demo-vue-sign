@@ -6,6 +6,11 @@
  
 > 逐步搭建vue2全家桶 // 先逐步进展，较完善后进行详细解说
 
+
+## vue2 启航注意点
+ 
+> https://github.com/dingyiming/vuejs-start/issues/10
+
 ### vue2 && vue-router@next
 - [x] npm i vue-cli -g
 - [x] vue init webpack-simple-2.0 vuejs-start
@@ -23,7 +28,3 @@
 - [ ] 可以切换主题啦
 - [ ] 简单完结小示例 -> 仓库链接
 - [ ] 深化，直接写样式，点击生成，完成样式（待考虑）
-
-## vue2 启航注意点
- 
-> https://github.com/dingyiming/vuejs-start/issues/10
