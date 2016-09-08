@@ -16,6 +16,17 @@
  
 > https://github.com/dingyiming/vuejs-start/issues/10
 
+### 涉及技术栈
+
+- vue2
+- axios
+- vue-router@next
+- vuex@next
+- normalize.css
+- ssr
+- stream render
+- express
+
 ## vue2起手式
  
 > 逐步搭建vue2全家桶 // 先逐步进展，较完善后进行详细解说
