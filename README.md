@@ -2,7 +2,13 @@
 
 > vue2 从头再来
 
-## vue2 中文文档
+## vue2文档
+
+- 官方RC文档
+
+> http://rc.vuejs.org
+
+- 中文文档
 
 >  http://vuefe.cn (逐步更新...)
 
