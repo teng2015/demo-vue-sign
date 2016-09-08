@@ -6,11 +6,11 @@
 
 > 逐步搭建vue2全家桶
 
-- [ ] npm i vue-cli -g
-- [ ] vue init webpack-simple-2.0 vuejs-start
-- [ ] cd vuejs-start && npm install
-- [ ] npm run dev  (http://localhost:8080)
-- [ ] npm i vue-router@next
+- [x] npm i vue-cli -g
+- [x] vue init webpack-simple-2.0 vuejs-start
+- [x] cd vuejs-start && npm install
+- [x] npm run dev  (http://localhost:8080)
+- [x] npm i vue-router@next
 
 ## vue2 启航注意点
  
