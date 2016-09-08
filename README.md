@@ -18,7 +18,7 @@
 - [x] npm run dev  (http://localhost:8080)
 - [x] npm i vue-router@next
 
-### 做个简单的sign页面
+### 做个简单的注册登录页面
 
 - [ ] 目标界面
 - [ ] 拆分组件
