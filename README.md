@@ -11,3 +11,7 @@
 - [ ] cd vuejs-start && npm install
 - [ ] npm run dev  (http://localhost:8080)
 - [ ] npm i vue-router@next
+
+## vue2 启航注意点
+ 
+> https://github.com/dingyiming/vuejs-start/issues/10
