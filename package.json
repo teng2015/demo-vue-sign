@@ -1,14 +1,14 @@
 {
-  "name": "vue2ssr",
+  "name": "vue2",
   "description": "A Vue.js project",
   "author": "dingyiming <315129552@qq.com>",
   "private": true,
   "scripts": {
-    "dev": "webpack-dev-server --inline --hot",
-    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+    "dev": "cross-env NODE_ENV=dev webpack-dev-server --config webpack/dev.js --inline --hot --port 8080",
+    "build": "cross-env NODE_ENV=prod webpack --config webpack/build.js --progress --hide-modules"
   },
   "dependencies": {
-    "vue": "^2.0.0-rc.4",
+    "vue": "^2.0.0-rc.5",
     "vue-router": "^2.0.0-rc.4"
   },
   "devDependencies": {
@@ -20,6 +20,7 @@
     "file-loader": "^0.8.4",
     "vue-loader": "^9.2.2",
     "webpack": "^2.1.0-beta.20",
-    "webpack-dev-server": "^2.1.0-beta.0"
+    "webpack-dev-server": "^2.1.0-beta.0",
+    "webpack-merge": "^0.14.1"
   }
 }

@@ -1,17 +1,27 @@
-import Vue from 'vue'
-import Router from 'vue-router'
+import Vue from 'vue';
+import Router from 'vue-router';
 
-Vue.use(Router)
+import Home from 'views/home';
+// 登录组件
+import SignIn from 'components/signIn';
+// 注册组件
+import SignUp from 'components/signUp';
 
-import home from '../views/home.vue';
-import user from '../views/user.vue';
+Vue.use(Router);
 
 export default new Router({
-  mode: 'history',
-  scrollBehavior: () => ({ y: 0 }),
+  mode: 'hash',
   routes: [
-    { path: '/', component: home },
-    { path: '/user', component: user },
-    { path: '*', redirect: '/' }
-  ]
-})
+    // 注册路由
+    {
+      path: '/',
+      component: Home,
+      children: [
+        // 嵌套路由 https://github.com/vuejs/vue-router/blob/next-doc/docs/en/advanced-routing/nested.md
+        { path: '/', component: SignUp },
+        { path: '/signin', component: SignIn },
+      ],
+    },
+    { path: '*', redirect: '/' },
+  ],
+});
