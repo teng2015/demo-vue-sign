@@ -14,7 +14,9 @@
 
 <style lang="css" scoped>
 .home__logo {
-  background: url('http://static.zhihu.com/static/revved/img/index/logo.6837e927.png') no-repeat;
+	width: 100px;
+  height: 30px;
+  background: url('~assets/logo.png') no-repeat;
   background-size: contain;
 	font: 0/0 a;
 	color: transparent;

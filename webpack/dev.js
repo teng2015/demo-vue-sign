@@ -15,7 +15,7 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, '../dist'),
     filename: 'js/app.js',
-    publishPath: 'dist/',
+    publishPath: '',
   },
   resolveLoader: {
     root: path.join(__dirname, 'node_modules'),
@@ -25,9 +25,10 @@ module.exports = {
     alias: {
       views: path.resolve(__dirname, '../src/views'),
       components: path.resolve(__dirname, '../src/components'),
+      assets: path.resolve(__dirname, '../src/assets'),
     },
     // 约定省略后缀
-    extrensions: ['', '.js', '.vue'],
+    extensions: ['', '.js', '.vue'],
   },
   module: {
     loaders: [{
@@ -38,8 +39,11 @@ module.exports = {
       loader: 'babel',
       exclude: /node_modules/,
     }, {
+      test: /\.(png|jpg|jpeg|gif)$/,
+      loader: 'url?limit=10000&name=images/[name].[ext]',
+    }, {
       test: /\.css$/,
-      loader: 'style-loader','css-loader',
+      loader: ['style-loader', 'css-loader'],
     }],
   },
 };
