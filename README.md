@@ -16,6 +16,12 @@
  
 > https://github.com/dingyiming/vuejs-start/issues/10
 
+## webpack2
+
+- 入坑注意 https://github.com/dingyiming/vue2-start/issues/9
+
+- 最新webpack2 && babel 实现tree shaking demo  https://github.com/dingyiming/vue2-start/issues/12
+
 ### 涉及技术栈
 
 - vue2
