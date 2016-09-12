@@ -25,6 +25,7 @@
 ### 涉及技术栈
 
 - vue2
+- webpack2 && tree shaking
 - axios
 - vue-router@next
 - vuex@next
@@ -54,3 +55,14 @@
 - [ ] 可以切换主题啦
 - [ ] 简单完结小示例 -> 仓库链接
 - [ ] 深化，直接写样式，点击生成，完成样式（待考虑）
+
+
+## 规范
+
+- ESLint Airbnb ES6 base
+
+- 尽量写上注释
+
+## Vue 生命周期
+
+![](http://rc.vuejs.org/images/lifecycle.png)
