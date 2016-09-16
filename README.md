@@ -47,6 +47,9 @@
 
 ### 做个简单的注册登录页面
 
+> https://github.com/dingyiming/demo-vue-sign/tree/vue2.x
+> http://demo-vue-sign.dingyiming.cn/
+
 - [x] 目标界面
 - [x] 拆分组件
 - [ ] 做点纯组件
